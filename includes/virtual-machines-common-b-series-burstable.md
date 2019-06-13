@@ -50,6 +50,12 @@ During peak hours my application averages 60% vCPU utilization, I still earn 0.2
 
 If I take the 120 credits I earned off-peak and subtract the 96 credits I used for my peak times, I bank an additional 24 credits per day that I can use for other bursts of activity.
 
+### Q: How can I calculate credits accumulated and used?
+**A**: You can use the following formula: 
+
+(Base CPU perf of VM - CPU Usage) / 100 = Credits bank or use per minute
+
+e.g in above instance your baeline is 20% and and if you use 10% of the CPU you are accumalting (20%-10%)/100 = 0.1 credit per minute
 
 ### Q: Does the B-Series support Premium Storage data disks?
 **A**: Yes, all B-Series sizes support Premium Storage data disks.   
@@ -59,9 +65,6 @@ If I take the 120 credits I earned off-peak and subtract the 96 credits I used f
 	
 ### Q: What happens if I deploy an unsupported OS image on B1ls?
 **A** : B1ls only supports Linux images and if you deploy any another OS image you might not get the best customer experience.
-	
-### Q: Why is there no pricing information for B1ls windows?
-**A** : B1ls only supports Linux images and if you deploy any another OS image you might not get the best customer experience but you will get billed.
 
 
 	
